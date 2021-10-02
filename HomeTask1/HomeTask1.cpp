@@ -8,5 +8,5 @@ int main()
 
     cin >> a;
 
-    cout << a.length();
+    cout << a.length()-1;
 }

@@ -4,12 +4,10 @@ using namespace std;
 
 int main()
 {
-    int a = 0, b = 0, c = 0, d = 0;
+	int a, b, c;
+	cin >> a >> b >> c;
 
-    cin >> a >> b >> c;
-
-    d = (b * b) + (-4 * a * c);
-
-    cout <<
-        (-b + sqrt(d)) / (2*a) << endl << (-b - sqrt(d)) / (2*a) << endl;
+	int d = (b * b) + (-4 * a * c);
+	cout << (-b + sqrt(d)) / (2 * a) << endl
+		<< (-b - sqrt(d)) / (2 * a) << endl;
 }

@@ -4,14 +4,21 @@ using namespace std;
 
 void main()
 {
-	int xy = 20;
+	int xy = 10;
+	int r = 8;
 
-	for (int y = 0; y < xy; y++)
+	for (int y = -xy; y < xy; y++)
 	{
-		for (int x = 0; x < xy; x++)
-		{ 
-			if (abs(x)==xy/2 || abs(y)==xy/2)
-			cout << " *";
+		for (int x = -xy; x < xy; x++)
+		{
+			if (r < sqrt((y * y) + (x * x)))
+			{
+				cout << " *";
+			}
+			else
+			{
+				cout << "  ";
+			}
 		}
 
 		cout << endl;

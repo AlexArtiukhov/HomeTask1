@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <ctime>
 #include <windows.h> 
-#include "ClassWork7_3.h"
+#include "HomeTask7_1.h"
 
 using namespace std;
 

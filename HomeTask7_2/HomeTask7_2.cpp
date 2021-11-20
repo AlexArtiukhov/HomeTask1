@@ -8,15 +8,13 @@ int main()
 	int a, b;
 
 	a_b_input(a, b);
-	summ_output(a, b);
-}
 
-void summ_output(int a, int b)
-{
+	cout << "Summ of your numbers:" << endl;
 	cout << a + b << endl;
 }
 
 void a_b_input(int& a, int& b)
 {
+	cout << "Enter numbers:" << endl;
 	cin >> a >> b;
 }

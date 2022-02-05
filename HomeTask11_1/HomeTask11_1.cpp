@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	const int elementsAmount = 1000;
+	const int elementsAmount = 10;
 	int arr[elementsAmount];
 	int arr2[elementsAmount];
 	int Colnum = 0;
@@ -21,9 +21,9 @@ int main()
 		arr[i] = rand() % n;
 	}
 
-	for (int i2 = 0; i2 < elementsAmount; i2++)
+	for (int i = 0; i < elementsAmount; i++)
 	{
-		cout << arr[i2] << endl;
+		cout << arr[i] << endl;
 	}
 
 	cout << endl;
